@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kredete Agent — Chat UI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <style>
+    /* Dev backend panel */
+    #backend-toggle{position:absolute;right:16px;top:12px}
+    #backend-panel{position:fixed;right:12px;top:56px;width:420px;max-height:70vh;overflow:auto;background:#fff;border:1px solid #e6e6e6;padding:12px;box-shadow:0 6px 24px rgba(0,0,0,0.08);display:none;z-index:999}
+    #backend-panel pre{white-space:pre-wrap;word-break:break-word;font-size:12px}
+    #backend-list{max-height:150px;overflow:auto;border-bottom:1px solid #eee;margin-bottom:8px}
+    #backend-list button{display:block;width:100%;text-align:left;padding:6px;border:0;background:transparent}
+    .error-banner{background:#ffecec;color:#b00020;padding:8px;margin:6px;border-radius:6px;font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="app" role="application">
+    <header>
+      <div style="width:40px;height:40px;border-radius:8px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:700">K</div>
+      <div>
+        <div class="brand">Kredete Agent</div>
+        <div class="tag">Prototype chat UI — placeholder responses</div>
+      </div>
+      <button id="backend-toggle" title="Toggle backend view">Show API</button>
+    </header>
+
+    <div class="container">
+      <div id="messages" class="messages" aria-live="polite">
+        <div class="empty">No messages yet — ask something using the composer below.</div>
+      </div>
+      </div>
+
+      <div class="input-area">
+        <div class="composer">
+          <textarea id="query" placeholder="Ask something..."></textarea>
+          <button id="send">Send</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="backend-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <strong>Backend view (dev)</strong>
+      <button id="backend-refresh">Refresh</button>
+    </div>
+    <div id="backend-list"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px">
+      <button id="backend-retry">Retry (noop)</button>
+      <button id="backend-force">Force new run</button>
+    </div>
+    <div id="backend-detail"><pre id="backend-json">No run selected</pre></div>
+  </div>
+
+  <script>
+    const messages = document.getElementById('messages')
+    const input = document.getElementById('query')
+    const send = document.getElementById('send')
+
+    function appendBubble(text, who='bot', meta=''){
+      const empty = document.querySelector('.empty')
+      if(empty) empty.remove()
+
+      const wrap = document.createElement('div')
+      wrap.className = 'bubble ' + (who === 'user' ? 'user' : 'bot')
+      wrap.innerHTML = `<div>${text}</div>`
+      if(meta){
+        const m = document.createElement('div')
+        m.className = 'meta'
+        m.textContent = meta
+        wrap.appendChild(m)
+      }
+      messages.appendChild(wrap)
+      messages.scrollTop = messages.scrollHeight
+    }
+
+    function renderRun(run){
+      messages.innerHTML = ''
+      for(const s of run.steps || []){
+        const text = `${s.name}: ${s.output || ''}`
+        appendBubble(text, 'bot', `Status: ${s.status} — Cost: ${s.cost} units`)
+        if(s.status === 'FAILED' && s.error){
+          const err = document.createElement('div')
+          err.className = 'error-banner'
+          err.textContent = s.error
+          messages.appendChild(err)
+        }
+      }
+      appendBubble(`Final status: ${run.status}`, 'bot', `Credits consumed: ${run.credits_consumed} units`)
+    }
+
+    const API_BASE = '' // same origin when served by FastAPI
+    const runIds = []
+    let selectedRunId = null
+    let backendPoll = null
+
+    function addRunId(id){
+      if(!runIds.includes(id)) runIds.unshift(id)
+      renderBackendList()
+    }
+
+    function renderBackendList(){
+      const list = document.getElementById('backend-list')
+      list.innerHTML = ''
+      for(const id of runIds){
+        const btn = document.createElement('button')
+        btn.textContent = id
+        btn.onclick = ()=>{ selectRun(id) }
+        if(id === selectedRunId){
+          btn.classList.add('selected')
+        }
+        list.appendChild(btn)
+      }
+    }
+
+    async function selectRun(id){
+      selectedRunId = id
+      renderBackendList()
+      await refreshBackendDetail()
+      if(backendPoll) clearInterval(backendPoll)
+      backendPoll = setInterval(()=>{ refreshBackendDetail() }, 700)
+    }
+
+    async function refreshBackendDetail(){
+      if(!selectedRunId) return
+      const r = await (await fetch(API_BASE + '/runs/' + selectedRunId)).json()
+      document.getElementById('backend-json').textContent = JSON.stringify(r, null, 2)
+    }
+
+    async function startRun(goal){
+      appendBubble(goal, 'user')
+      input.value = ''
+      const typing = document.createElement('div')
+      typing.className = 'bubble bot'
+      typing.textContent = 'Kredete is typing...'
+      messages.appendChild(typing)
+      messages.scrollTop = messages.scrollHeight
+
+      const res = await fetch(API_BASE + '/runs', { method: 'POST', headers: {'content-type':'application/json'}, body: JSON.stringify({ goal, max_steps: 10 }) })
+      const run = await res.json()
+      typing.remove()
+      renderRun(run)
+
+      const id = run.id
+      addRunId(id)
+      const poll = setInterval(async ()=>{
+        const rres = await fetch(API_BASE + '/runs/' + id)
+        if(!rres.ok) return
+        const r = await rres.json()
+        renderRun(r)
+        if(r.status !== 'RUNNING' && r.status !== 'PENDING'){
+          clearInterval(poll)
+        }
+      }, 700)
+    }
+
+    // backend toggle behavior
+    const backendToggle = document.getElementById('backend-toggle')
+    const backendPanel = document.getElementById('backend-panel')
+    const backendRefresh = document.getElementById('backend-refresh')
+    backendToggle.addEventListener('click', ()=>{
+      if(backendPanel.style.display === 'none' || !backendPanel.style.display){
+        backendPanel.style.display = 'block'
+        backendToggle.textContent = 'Hide API'
+        renderBackendList()
+      } else {
+        backendPanel.style.display = 'none'
+        backendToggle.textContent = 'Show API'
+        if(backendPoll) clearInterval(backendPoll)
+      }
+    })
+    backendRefresh.addEventListener('click', ()=> refreshBackendDetail())
+
+    document.getElementById('backend-retry').addEventListener('click', async ()=>{
+      if(!selectedRunId) return alert('Select a run first')
+      const res = await fetch(API_BASE + '/runs/' + selectedRunId + '/retry', { method: 'POST' })
+      if(!res.ok) return alert('retry request failed')
+      const run = await res.json()
+      if(run.error) return alert(run.error)
+      addRunId(run.id)
+      selectRun(run.id)
+    })
+    document.getElementById('backend-force').addEventListener('click', async ()=>{
+      if(!selectedRunId) return alert('Select a run first')
+      const rres = await fetch(API_BASE + '/runs/' + selectedRunId)
+      if(!rres.ok) return alert('failed to load selected run')
+      const r = await rres.json()
+      const res = await fetch(API_BASE + '/runs?force=true', { method: 'POST', headers: {'content-type':'application/json'}, body: JSON.stringify({ goal: r.goal, max_steps: r.max_steps }) })
+      const run = await res.json()
+      addRunId(run.id)
+      selectRun(run.id)
+    })
+
+    send.addEventListener('click', ()=>{
+      const q = input.value.trim()
+      if(!q) return
+      startRun(q)
+    })
+
+    input.addEventListener('keydown', (e)=>{
+      if(e.key === 'Enter'){
+        e.preventDefault(); send.click()
+      }
+    })
+  </script>
+</body>
+</html>

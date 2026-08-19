@@ -1,0 +1,2232 @@
+{
+  "650de0d7-b8ab-4940-b249-81df2665283b": {
+    "id": "650de0d7-b8ab-4940-b249-81df2665283b",
+    "goal": "hey",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.606927",
+        "finished_at": "2026-08-19 17:15:55.607701"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.609260",
+        "finished_at": "2026-08-19 17:15:55.715143"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.717048",
+        "finished_at": "2026-08-19 17:15:55.822778"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hey' | Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.828947",
+        "finished_at": "2026-08-19 17:15:55.986623"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.992432",
+        "finished_at": "2026-08-19 17:15:55.995052"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:15:55.599211"
+  },
+  "e8eb33ac-8ac3-4399-942a-16e5edacbeaf": {
+    "id": "e8eb33ac-8ac3-4399-942a-16e5edacbeaf",
+    "goal": "hi",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hi",
+        "error": null,
+        "started_at": "2026-08-19 17:18:45.692056",
+        "finished_at": "2026-08-19 17:18:45.693493"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hi'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:45.697776",
+        "finished_at": "2026-08-19 17:18:45.805292"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hi'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:45.812234",
+        "finished_at": "2026-08-19 17:18:45.917758"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hi' | Search result 2 for 'hi'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:45.924385",
+        "finished_at": "2026-08-19 17:18:46.076323"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hi",
+        "error": null,
+        "started_at": "2026-08-19 17:18:46.082765",
+        "finished_at": "2026-08-19 17:18:46.084778"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:18:45.682386"
+  },
+  "22604c96-05f2-46a8-8a38-b3dfd472dd7f": {
+    "id": "22604c96-05f2-46a8-8a38-b3dfd472dd7f",
+    "goal": "asasas",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: asasas",
+        "error": null,
+        "started_at": "2026-08-19 17:18:56.901929",
+        "finished_at": "2026-08-19 17:18:56.903566"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'asasas'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:56.907486",
+        "finished_at": "2026-08-19 17:18:57.014377"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'asasas'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:57.021525",
+        "finished_at": "2026-08-19 17:18:57.128307"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'asasas' | Search result 2 for 'asasas'",
+        "error": null,
+        "started_at": "2026-08-19 17:18:57.134726",
+        "finished_at": "2026-08-19 17:18:57.291931"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: asasas",
+        "error": null,
+        "started_at": "2026-08-19 17:18:57.299189",
+        "finished_at": "2026-08-19 17:18:57.301227"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:18:56.889516"
+  },
+  "c30403ff-3d7c-40f1-a4a2-5bfb72fb6832": {
+    "id": "c30403ff-3d7c-40f1-a4a2-5bfb72fb6832",
+    "goal": "as",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: as",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.069272",
+        "finished_at": "2026-08-19 17:19:58.071915"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.076751",
+        "finished_at": "2026-08-19 17:19:58.183433"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.189406",
+        "finished_at": "2026-08-19 17:19:58.296141"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'as' | Search result 2 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.303586",
+        "finished_at": "2026-08-19 17:19:58.460821"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: as",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.467674",
+        "finished_at": "2026-08-19 17:19:58.469796"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:19:58.056288"
+  },
+  "731d007f-95d7-4164-a49e-fc4b3fa23d4b": {
+    "id": "731d007f-95d7-4164-a49e-fc4b3fa23d4b",
+    "goal": "f",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: f",
+        "error": null,
+        "started_at": "2026-08-19 17:20:02.102662",
+        "finished_at": "2026-08-19 17:20:02.104981"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'f'",
+        "error": null,
+        "started_at": "2026-08-19 17:20:02.109498",
+        "finished_at": "2026-08-19 17:20:02.216267"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'f'",
+        "error": null,
+        "started_at": "2026-08-19 17:20:02.223058",
+        "finished_at": "2026-08-19 17:20:02.330086"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'f' | Search result 2 for 'f'",
+        "error": null,
+        "started_at": "2026-08-19 17:20:02.336992",
+        "finished_at": "2026-08-19 17:20:02.491659"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: f",
+        "error": null,
+        "started_at": "2026-08-19 17:20:02.499953",
+        "finished_at": "2026-08-19 17:20:02.502034"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:20:02.089120"
+  },
+  "0e100d58-d001-4316-a9f5-7ec626f088c4": {
+    "id": "0e100d58-d001-4316-a9f5-7ec626f088c4",
+    "goal": "hello",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hello",
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.255469",
+        "finished_at": "2026-08-19 17:23:19.258330"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.262566",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hello'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.266286",
+        "finished_at": "2026-08-19 17:23:19.372919"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hello'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.379263",
+        "finished_at": "2026-08-19 17:23:19.487013"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hello' | Search result 2 for 'hello'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.496344",
+        "finished_at": "2026-08-19 17:23:19.654175"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hello",
+        "error": null,
+        "started_at": "2026-08-19 17:23:19.661928",
+        "finished_at": "2026-08-19 17:23:19.663920"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:23:19.240202"
+  },
+  "2e72726f-de20-438a-befa-f01c211fd846": {
+    "id": "2e72726f-de20-438a-befa-f01c211fd846",
+    "goal": "ask",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: ask",
+        "error": null,
+        "started_at": "2026-08-19 17:23:30.922008",
+        "finished_at": "2026-08-19 17:23:30.925270"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:23:30.930054",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'ask'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:30.934132",
+        "finished_at": "2026-08-19 17:23:31.040912"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'ask'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:31.047912",
+        "finished_at": "2026-08-19 17:23:31.155261"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'ask' | Search result 2 for 'ask'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:31.164085",
+        "finished_at": "2026-08-19 17:23:31.319995"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: ask",
+        "error": null,
+        "started_at": "2026-08-19 17:23:31.330524",
+        "finished_at": "2026-08-19 17:23:31.333792"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:23:30.907115"
+  },
+  "2ccb5117-02b8-4176-b3d5-6c9e4e7ba785": {
+    "id": "2ccb5117-02b8-4176-b3d5-6c9e4e7ba785",
+    "goal": "rew",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: rew",
+        "error": null,
+        "started_at": "2026-08-19 17:23:34.840145",
+        "finished_at": "2026-08-19 17:23:34.843012"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:23:34.847523",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'rew'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:34.851169",
+        "finished_at": "2026-08-19 17:23:34.958380"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'rew'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:34.967102",
+        "finished_at": "2026-08-19 17:23:35.071268"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'rew' | Search result 2 for 'rew'",
+        "error": null,
+        "started_at": "2026-08-19 17:23:35.081058",
+        "finished_at": "2026-08-19 17:23:35.238934"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: rew",
+        "error": null,
+        "started_at": "2026-08-19 17:23:35.250709",
+        "finished_at": "2026-08-19 17:23:35.253994"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:23:34.822653"
+  },
+  "e3925723-6ac4-4e06-a0ee-6095c49b06c4": {
+    "id": "e3925723-6ac4-4e06-a0ee-6095c49b06c4",
+    "goal": "heyh",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: heyh",
+        "error": null,
+        "started_at": "2026-08-19 17:25:19.683467",
+        "finished_at": "2026-08-19 17:25:19.687100"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:25:19.692036",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'heyh'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:19.696760",
+        "finished_at": "2026-08-19 17:25:19.803926"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'heyh'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:19.813900",
+        "finished_at": "2026-08-19 17:25:19.921920"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'heyh' | Search result 2 for 'heyh'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:19.933147",
+        "finished_at": "2026-08-19 17:25:20.091262"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: heyh",
+        "error": null,
+        "started_at": "2026-08-19 17:25:20.100952",
+        "finished_at": "2026-08-19 17:25:20.104867"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:25:19.665188"
+  },
+  "46f00251-bab8-44ce-83f2-990a8cb5d579": {
+    "id": "46f00251-bab8-44ce-83f2-990a8cb5d579",
+    "goal": "hey",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 650de0d7-b8ab-4940-b249-81df2665283b",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:25:49.901333"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.609260",
+        "finished_at": "2026-08-19 17:15:55.715143"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.717048",
+        "finished_at": "2026-08-19 17:15:55.822778"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hey' | Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.828947",
+        "finished_at": "2026-08-19 17:15:55.986623"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.992432",
+        "finished_at": "2026-08-19 17:15:55.995052"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:25:49.873357"
+  },
+  "5ee4cc50-dd6d-4fd0-a43b-cf43546dbc1f": {
+    "id": "5ee4cc50-dd6d-4fd0-a43b-cf43546dbc1f",
+    "goal": "hey",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 46f00251-bab8-44ce-83f2-990a8cb5d579",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:25:54.259610"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 650de0d7-b8ab-4940-b249-81df2665283b",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:25:49.901333"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.609260",
+        "finished_at": "2026-08-19 17:15:55.715143"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.717048",
+        "finished_at": "2026-08-19 17:15:55.822778"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hey' | Search result 2 for 'hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.828947",
+        "finished_at": "2026-08-19 17:15:55.986623"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:15:55.992432",
+        "finished_at": "2026-08-19 17:15:55.995052"
+      }
+    ],
+    "credits_consumed": 1620,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:25:54.230906"
+  },
+  "1d919ce3-9560-4e39-a501-4393a848f0cc": {
+    "id": "1d919ce3-9560-4e39-a501-4393a848f0cc",
+    "goal": "as",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run c30403ff-3d7c-40f1-a4a2-5bfb72fb6832",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:25:55.914175"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.076751",
+        "finished_at": "2026-08-19 17:19:58.183433"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.189406",
+        "finished_at": "2026-08-19 17:19:58.296141"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'as' | Search result 2 for 'as'",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.303586",
+        "finished_at": "2026-08-19 17:19:58.460821"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: as",
+        "error": null,
+        "started_at": "2026-08-19 17:19:58.467674",
+        "finished_at": "2026-08-19 17:19:58.469796"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:25:55.885581"
+  },
+  "7ee2c9a2-5581-4575-ac1b-581e6a9826e7": {
+    "id": "7ee2c9a2-5581-4575-ac1b-581e6a9826e7",
+    "goal": "i am bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: i am bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.657920",
+        "finished_at": "2026-08-19 17:25:59.661145"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.666859",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.672065",
+        "finished_at": "2026-08-19 17:25:59.779649"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.794047",
+        "finished_at": "2026-08-19 17:25:59.902769"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'i am bhargav' | Search result 2 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.917551",
+        "finished_at": "2026-08-19 17:26:00.077057"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: i am bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:26:00.088969",
+        "finished_at": "2026-08-19 17:26:00.093092"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:25:59.636312"
+  },
+  "e7307516-417c-49e6-9c64-d103b6258e1b": {
+    "id": "e7307516-417c-49e6-9c64-d103b6258e1b",
+    "goal": "i am bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 7ee2c9a2-5581-4575-ac1b-581e6a9826e7",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:26:03.369430"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.666859",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.672065",
+        "finished_at": "2026-08-19 17:25:59.779649"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.794047",
+        "finished_at": "2026-08-19 17:25:59.902769"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'i am bhargav' | Search result 2 for 'i am bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:25:59.917551",
+        "finished_at": "2026-08-19 17:26:00.077057"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: i am bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:26:00.088969",
+        "finished_at": "2026-08-19 17:26:00.093092"
+      }
+    ],
+    "credits_consumed": 1620,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:26:03.337598"
+  },
+  "367da428-e48a-453d-991c-14dfc6f2cae7": {
+    "id": "367da428-e48a-453d-991c-14dfc6f2cae7",
+    "goal": "hey",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:29:25.136693",
+        "finished_at": "2026-08-19 17:29:25.140362"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 5ee4cc50-dd6d-4fd0-a43b-cf43546dbc1f: LookupPrevious: Adopted outputs from completed run 46f00251-bab8-44ce-83f2-990a8cb5d579 | LookupPrevious: Adopted outputs from completed run 650de0d7-b8ab-4940-b249-81df2665283b | SearchA: Search result 1 for 'hey' | SearchB: Search result 2 for 'hey' | Summarize: Summary: Search result 1 for 'hey' | Search result 2 for 'hey' | Finalize: Final report for: hey",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:29:25.146526"
+      }
+    ],
+    "credits_consumed": 110,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:29:25.113455"
+  },
+  "818e19e6-c15c-48c9-acdc-bd63045fbc82": {
+    "id": "818e19e6-c15c-48c9-acdc-bd63045fbc82",
+    "goal": "hi, my name is bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hi, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:29:37.665932",
+        "finished_at": "2026-08-19 17:29:37.669716"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:29:37.675964",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'hi, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:29:37.681817",
+        "finished_at": "2026-08-19 17:29:37.789555"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'hi, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:29:37.800901",
+        "finished_at": "2026-08-19 17:29:37.910503"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'hi, my name is bhargav' | Search result 2 for 'hi, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 17:29:37.925977",
+        "finished_at": "2026-08-19 17:29:38.084755"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: hi, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:29:38.098631",
+        "finished_at": "2026-08-19 17:29:38.103096"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:29:37.643172"
+  },
+  "3f33e564-5526-4292-a268-ab3f43cc4fda": {
+    "id": "3f33e564-5526-4292-a268-ab3f43cc4fda",
+    "goal": "hi, my name is bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hi, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 17:29:44.337248",
+        "finished_at": "2026-08-19 17:29:44.340854"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 818e19e6-c15c-48c9-acdc-bd63045fbc82: Plan: Planned steps for: hi, my name is bhargav | SearchA: Search result 1 for 'hi, my name is bhargav' | SearchB: Search result 2 for 'hi, my name is bhargav' | Summarize: Summary: Search result 1 for 'hi, my name is bhargav' | Search result 2 for 'hi, my name is bhargav' | Finalize: Final report for: hi, my name is bhargav",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:29:44.347251"
+      }
+    ],
+    "credits_consumed": 110,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:29:44.312042"
+  },
+  "97fdd416-6f2c-4d4a-b606-cd84a913bfd3": {
+    "id": "97fdd416-6f2c-4d4a-b606-cd84a913bfd3",
+    "goal": "hi",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hi",
+        "error": null,
+        "started_at": "2026-08-19 17:39:07.602069",
+        "finished_at": "2026-08-19 17:39:07.605701"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run e8eb33ac-8ac3-4399-942a-16e5edacbeaf: Plan: Planned steps for: hi | SearchA: Search result 1 for 'hi' | SearchB: Search result 2 for 'hi' | Summarize: Summary: Search result 1 for 'hi' | Search result 2 for 'hi' | Finalize: Final report for: hi",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:39:07.612362"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:07.577730"
+  },
+  "bab16350-3b06-4028-babc-8df8ab5bd91a": {
+    "id": "bab16350-3b06-4028-babc-8df8ab5bd91a",
+    "goal": "1hey",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: 1hey",
+        "error": null,
+        "started_at": "2026-08-19 17:39:12.882729",
+        "finished_at": "2026-08-19 17:39:12.890499"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:39:12.897376",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for '1hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:12.903406",
+        "finished_at": "2026-08-19 17:39:13.011481"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": false,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:39:13.023828",
+        "finished_at": "2026-08-19 17:39:13.133643"
+      }
+    ],
+    "credits_consumed": 1110,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:12.858037"
+  },
+  "00c8e65e-eebe-4670-a4dd-e963cef7240b": {
+    "id": "00c8e65e-eebe-4670-a4dd-e963cef7240b",
+    "goal": "1hey",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: 1hey",
+        "error": null,
+        "started_at": "2026-08-19 17:39:23.832766",
+        "finished_at": "2026-08-19 17:39:23.836862"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Found previous partial run bab16350-3b06-4028-babc-8df8ab5bd91a; copying completed steps",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:39:23.843906"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for '1hey'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:12.903406",
+        "finished_at": "2026-08-19 17:39:13.011481"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": false,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:39:23.850229",
+        "finished_at": "2026-08-19 17:39:23.958200"
+      }
+    ],
+    "credits_consumed": 600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:23.807641"
+  },
+  "f1c0d3bc-7d86-484a-9085-2ecebec0e658": {
+    "id": "f1c0d3bc-7d86-484a-9085-2ecebec0e658",
+    "goal": "hey",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: hey",
+        "error": null,
+        "started_at": "2026-08-19 17:39:29.866650",
+        "finished_at": "2026-08-19 17:39:29.869354"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 367da428-e48a-453d-991c-14dfc6f2cae7: Plan: Planned steps for: hey | LookupPrevious: Adopted outputs from completed run 5ee4cc50-dd6d-4fd0-a43b-cf43546dbc1f: LookupPrevious: Adopted outputs from completed run 46f00251-bab8-44ce-83f2-990a8cb5d579 | LookupPrevious: Adopted outputs from completed run 650de0d7-b8ab-4940-b249-81df2665283b | SearchA: Search result 1 for 'hey' | SearchB: Search result 2 for 'hey' | Summarize: Summary: Search result 1 for 'hey' | Search result 2 for 'hey' | Finalize: Final report for: hey",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:39:29.874363"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:29.854353"
+  },
+  "ab8e3de1-ac65-48cf-9632-a8ed1a1f0681": {
+    "id": "ab8e3de1-ac65-48cf-9632-a8ed1a1f0681",
+    "goal": "1what is the weather",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: 1what is the weather",
+        "error": null,
+        "started_at": "2026-08-19 17:39:36.487489",
+        "finished_at": "2026-08-19 17:39:36.491580"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:39:36.499139",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for '1what is the weather'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:36.505568",
+        "finished_at": "2026-08-19 17:39:36.613560"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": false,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:39:36.626272",
+        "finished_at": "2026-08-19 17:39:36.736538"
+      }
+    ],
+    "credits_consumed": 1110,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:36.461022"
+  },
+  "2406f04e-2c27-4b34-9eaa-bf313f56d4a8": {
+    "id": "2406f04e-2c27-4b34-9eaa-bf313f56d4a8",
+    "goal": "what is the weather",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: what is the weather",
+        "error": null,
+        "started_at": "2026-08-19 17:39:40.983748",
+        "finished_at": "2026-08-19 17:39:40.987964"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": false,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:39:40.995617",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 1 for 'what is the weather'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:41.002261",
+        "finished_at": "2026-08-19 17:39:41.110355"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": false,
+        "output": "Search result 2 for 'what is the weather'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:41.124145",
+        "finished_at": "2026-08-19 17:39:41.234408"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": false,
+        "output": "Summary: Search result 1 for 'what is the weather' | Search result 2 for 'what is the weather'",
+        "error": null,
+        "started_at": "2026-08-19 17:39:41.251280",
+        "finished_at": "2026-08-19 17:39:41.412080"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Final report for: what is the weather",
+        "error": null,
+        "started_at": "2026-08-19 17:39:41.425950",
+        "finished_at": "2026-08-19 17:39:41.430420"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:40.957238"
+  },
+  "8bdbe35e-b0be-4f38-87f7-519d0bba6aca": {
+    "id": "8bdbe35e-b0be-4f38-87f7-519d0bba6aca",
+    "goal": "what is the weather",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": false,
+        "output": "Planned steps for: what is the weather",
+        "error": null,
+        "started_at": "2026-08-19 17:39:48.549786",
+        "finished_at": "2026-08-19 17:39:48.554182"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 2406f04e-2c27-4b34-9eaa-bf313f56d4a8: Plan: Planned steps for: what is the weather | SearchA: Search result 1 for 'what is the weather' | SearchB: Search result 2 for 'what is the weather' | Summarize: Summary: Search result 1 for 'what is the weather' | Search result 2 for 'what is the weather' | Finalize: Final report for: what is the weather",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:39:48.561964"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:39:48.521495"
+  },
+  "372c4dc4-b37e-4a68-9a3f-553791093eed": {
+    "id": "372c4dc4-b37e-4a68-9a3f-553791093eed",
+    "goal": "hi",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hi",
+        "error": null,
+        "started_at": "2026-08-19 17:46:17.084264",
+        "finished_at": "2026-08-19 17:46:17.088703"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 97fdd416-6f2c-4d4a-b606-cd84a913bfd3: Plan: Planned steps for: hi | LookupPrevious: Adopted outputs from completed run e8eb33ac-8ac3-4399-942a-16e5edacbeaf: Plan: Planned steps for: hi | SearchA: Search result 1 for 'hi' | SearchB: Search result 2 for 'hi' | Summarize: Summary: Search result 1 for 'hi' | Search result 2 for 'hi' | Finalize: Final report for: hi",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:46:17.096595"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:46:17.053787"
+  },
+  "3f5621aa-eeac-4ce0-93dc-21e673972e85": {
+    "id": "3f5621aa-eeac-4ce0-93dc-21e673972e85",
+    "goal": "good morning",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: good morning",
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.238121",
+        "finished_at": "2026-08-19 17:46:24.240856"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.245974",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'good morning'",
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.251094",
+        "finished_at": "2026-08-19 17:46:24.355591"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'good morning'",
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.361623",
+        "finished_at": "2026-08-19 17:46:24.465247"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'good morning' | Search result 2 for 'good morning'",
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.472009",
+        "finished_at": "2026-08-19 17:46:24.628814"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: good morning",
+        "error": null,
+        "started_at": "2026-08-19 17:46:24.635514",
+        "finished_at": "2026-08-19 17:46:24.638490"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:46:24.224921"
+  },
+  "0ab857a1-21d8-446d-8526-d707b3b2fd05": {
+    "id": "0ab857a1-21d8-446d-8526-d707b3b2fd05",
+    "goal": "hi",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hi",
+        "error": null,
+        "started_at": "2026-08-19 17:46:41.069149",
+        "finished_at": "2026-08-19 17:46:41.074272"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 372c4dc4-b37e-4a68-9a3f-553791093eed: Plan: Planned steps for: hi | LookupPrevious: Adopted outputs from completed run 97fdd416-6f2c-4d4a-b606-cd84a913bfd3: Plan: Planned steps for: hi | LookupPrevious: Adopted outputs from completed run e8eb33ac-8ac3-4399-942a-16e5edacbeaf: Plan: Planned steps for: hi | SearchA: Search result 1 for 'hi' | SearchB: Search result 2 for 'hi' | Summarize: Summary: Search result 1 for 'hi' | Search result 2 for 'hi' | Finalize: Final report for: hi",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:46:41.083102"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:46:41.042140"
+  },
+  "7d507249-f492-436d-839e-e2a03a957e14": {
+    "id": "7d507249-f492-436d-839e-e2a03a957e14",
+    "goal": "good morning",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: good morning",
+        "error": null,
+        "started_at": "2026-08-19 17:47:12.318189",
+        "finished_at": "2026-08-19 17:47:12.323297"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 3f5621aa-eeac-4ce0-93dc-21e673972e85: Plan: Planned steps for: good morning | SearchA: Search result 1 for 'good morning' | SearchB: Search result 2 for 'good morning' | Summarize: Summary: Search result 1 for 'good morning' | Search result 2 for 'good morning' | Finalize: Final report for: good morning",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:47:12.332390"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:47:12.292023"
+  },
+  "ff286043-ebd4-43de-873c-c124875f88b3": {
+    "id": "ff286043-ebd4-43de-873c-c124875f88b3",
+    "goal": "good morning",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: good morning",
+        "error": null,
+        "started_at": "2026-08-19 17:47:31.616213",
+        "finished_at": "2026-08-19 17:47:31.621271"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 7d507249-f492-436d-839e-e2a03a957e14: Plan: Planned steps for: good morning | LookupPrevious: Adopted outputs from completed run 3f5621aa-eeac-4ce0-93dc-21e673972e85: Plan: Planned steps for: good morning | SearchA: Search result 1 for 'good morning' | SearchB: Search result 2 for 'good morning' | Summarize: Summary: Search result 1 for 'good morning' | Search result 2 for 'good morning' | Finalize: Final report for: good morning",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:47:31.630073"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:47:31.584783"
+  },
+  "56420144-b5aa-4652-b3fe-ba0ab0041f73": {
+    "id": "56420144-b5aa-4652-b3fe-ba0ab0041f73",
+    "goal": "1 hi how are you",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: 1 hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:48:19.033358",
+        "finished_at": "2026-08-19 17:48:19.038546"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:48:19.047027",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for '1 hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:48:19.054316",
+        "finished_at": "2026-08-19 17:48:19.162866"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": true,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:48:19.176532",
+        "finished_at": "2026-08-19 17:48:19.286546"
+      }
+    ],
+    "credits_consumed": 1110,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:48:19.002193"
+  },
+  "2df93f64-e8cf-428f-be41-732e4e18743c": {
+    "id": "2df93f64-e8cf-428f-be41-732e4e18743c",
+    "goal": "1 hi how are you",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: 1 hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:49:12.636738",
+        "finished_at": "2026-08-19 17:49:12.642252"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Found previous partial run 56420144-b5aa-4652-b3fe-ba0ab0041f73; copying completed steps",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:49:12.651521"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for '1 hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:48:19.054316",
+        "finished_at": "2026-08-19 17:48:19.162866"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": true,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:49:12.659435",
+        "finished_at": "2026-08-19 17:49:12.768120"
+      }
+    ],
+    "credits_consumed": 600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:49:12.608537"
+  },
+  "90412aad-f5a1-4ed1-8013-6068e4691b0b": {
+    "id": "90412aad-f5a1-4ed1-8013-6068e4691b0b",
+    "goal": "1 hi how are you",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: 1 hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:49:21.933196",
+        "finished_at": "2026-08-19 17:49:21.938095"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Found previous partial run 2df93f64-e8cf-428f-be41-732e4e18743c; copying completed steps",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:49:21.947308"
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for '1 hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:48:19.054316",
+        "finished_at": "2026-08-19 17:48:19.162866"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": true,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 17:49:21.954868",
+        "finished_at": "2026-08-19 17:49:22.064036"
+      }
+    ],
+    "credits_consumed": 600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:49:21.900240"
+  },
+  "1a3898b3-b756-4e1e-9eec-b022b262fc2c": {
+    "id": "1a3898b3-b756-4e1e-9eec-b022b262fc2c",
+    "goal": "hi how are you",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:49:28.918958",
+        "finished_at": "2026-08-19 17:49:28.924174"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 17:49:28.932984",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:49:28.940954",
+        "finished_at": "2026-08-19 17:49:29.049773"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:49:29.063860",
+        "finished_at": "2026-08-19 17:49:29.174184"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'hi how are you' | Search result 2 for 'hi how are you'",
+        "error": null,
+        "started_at": "2026-08-19 17:49:29.192669",
+        "finished_at": "2026-08-19 17:49:29.351369"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:49:29.370176",
+        "finished_at": "2026-08-19 17:49:29.377498"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:49:28.886291"
+  },
+  "f96c9acc-5ee2-46d4-a687-bab6cf12ae9b": {
+    "id": "f96c9acc-5ee2-46d4-a687-bab6cf12ae9b",
+    "goal": "hi how are you",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hi how are you",
+        "error": null,
+        "started_at": "2026-08-19 17:49:34.179226",
+        "finished_at": "2026-08-19 17:49:34.184551"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 1a3898b3-b756-4e1e-9eec-b022b262fc2c: Plan: Planned steps for: hi how are you | SearchA: Search result 1 for 'hi how are you' | SearchB: Search result 2 for 'hi how are you' | Summarize: Summary: Search result 1 for 'hi how are you' | Search result 2 for 'hi how are you' | Finalize: Final report for: hi how are you",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 17:49:34.193943"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 17:49:34.144504"
+  },
+  "44c7be69-db7a-4aac-908b-306cf09c6a0c": {
+    "id": "44c7be69-db7a-4aac-908b-306cf09c6a0c",
+    "goal": "hey good morning, my name is bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hey good morning, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 18:07:17.685714",
+        "finished_at": "2026-08-19 18:07:17.690444"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 10,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:07:17.699285",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'hey good morning, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 18:07:17.707063",
+        "finished_at": "2026-08-19 18:07:17.815779"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'hey good morning, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 18:07:17.829358",
+        "finished_at": "2026-08-19 18:07:17.939783"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'hey good morning, my name is bhargav' | Search result 2 for 'hey good morning, my name is bhargav'",
+        "error": null,
+        "started_at": "2026-08-19 18:07:17.962053",
+        "finished_at": "2026-08-19 18:07:18.123801"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: hey good morning, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 18:07:18.145682",
+        "finished_at": "2026-08-19 18:07:18.152262"
+      }
+    ],
+    "credits_consumed": 1610,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:07:17.649577"
+  },
+  "b6f150e0-1340-4434-96ec-5d36225ca59d": {
+    "id": "b6f150e0-1340-4434-96ec-5d36225ca59d",
+    "goal": "hey good morning, my name is bhargav",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hey good morning, my name is bhargav",
+        "error": null,
+        "started_at": "2026-08-19 18:08:14.326492",
+        "finished_at": "2026-08-19 18:08:14.331607"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 10,
+        "charged": false,
+        "output": "Adopted outputs from completed run 44c7be69-db7a-4aac-908b-306cf09c6a0c: Plan: Planned steps for: hey good morning, my name is bhargav | SearchA: Search result 1 for 'hey good morning, my name is bhargav' | SearchB: Search result 2 for 'hey good morning, my name is bhargav' | Summarize: Summary: Search result 1 for 'hey good morning, my name is bhargav' | Search result 2 for 'hey good morning, my name is bhargav' | Finalize: Final report for: hey good morning, my name is bhargav",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 18:08:14.340780"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:08:14.291510"
+  },
+  "7396e2f2-0344-4e75-ab0a-5fe859991d18": {
+    "id": "7396e2f2-0344-4e75-ab0a-5fe859991d18",
+    "goal": "good morning, what is the weather today?",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: good morning, what is the weather today?",
+        "error": null,
+        "started_at": "2026-08-19 18:13:45.812930",
+        "finished_at": "2026-08-19 18:13:45.818239"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 0,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:13:45.827850",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'good morning, what is the weather today?'",
+        "error": null,
+        "started_at": "2026-08-19 18:13:45.836223",
+        "finished_at": "2026-08-19 18:13:45.945269"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'good morning, what is the weather today?'",
+        "error": null,
+        "started_at": "2026-08-19 18:13:45.954461",
+        "finished_at": "2026-08-19 18:13:46.063707"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'good morning, what is the weather today?' | Search result 2 for 'good morning, what is the weather today?'",
+        "error": null,
+        "started_at": "2026-08-19 18:13:46.078896",
+        "finished_at": "2026-08-19 18:13:46.239615"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: good morning, what is the weather today?",
+        "error": null,
+        "started_at": "2026-08-19 18:13:46.261480",
+        "finished_at": "2026-08-19 18:13:46.268477"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:13:45.777012"
+  },
+  "d483463f-4048-40ff-aa61-acde83c98831": {
+    "id": "d483463f-4048-40ff-aa61-acde83c98831",
+    "goal": "good morning, what is the weather today?",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: good morning, what is the weather today?",
+        "error": null,
+        "started_at": "2026-08-19 18:14:36.154850",
+        "finished_at": "2026-08-19 18:14:36.160253"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "COMPLETED",
+        "cost": 0,
+        "charged": false,
+        "output": "Adopted outputs from completed run 7396e2f2-0344-4e75-ab0a-5fe859991d18: Plan: Planned steps for: good morning, what is the weather today? | SearchA: Search result 1 for 'good morning, what is the weather today?' | SearchB: Search result 2 for 'good morning, what is the weather today?' | Summarize: Summary: Search result 1 for 'good morning, what is the weather today?' | Search result 2 for 'good morning, what is the weather today?' | Finalize: Final report for: good morning, what is the weather today?",
+        "error": null,
+        "started_at": null,
+        "finished_at": "2026-08-19 18:14:36.169855"
+      }
+    ],
+    "credits_consumed": 100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:14:36.118628"
+  },
+  "3a5f3638-0266-4a50-a49e-81c825553e03": {
+    "id": "3a5f3638-0266-4a50-a49e-81c825553e03",
+    "goal": "5 hello",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: 5 hello",
+        "error": null,
+        "started_at": "2026-08-19 18:15:53.332688",
+        "finished_at": "2026-08-19 18:15:53.338124"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 0,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:15:53.347746",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for '5 hello'",
+        "error": null,
+        "started_at": "2026-08-19 18:15:53.356385",
+        "finished_at": "2026-08-19 18:15:53.465486"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": true,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 18:15:53.481205",
+        "finished_at": "2026-08-19 18:15:53.592313"
+      }
+    ],
+    "credits_consumed": 1100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:15:53.297372"
+  },
+  "2ec97a6a-2fcd-4fe8-9b30-17d888439283": {
+    "id": "2ec97a6a-2fcd-4fe8-9b30-17d888439283",
+    "goal": "hello!",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: hello!",
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.176772",
+        "finished_at": "2026-08-19 18:16:14.182050"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 0,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.191580",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'hello!'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.200186",
+        "finished_at": "2026-08-19 18:16:14.309464"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'hello!'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.324880",
+        "finished_at": "2026-08-19 18:16:14.435777"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'hello!' | Search result 2 for 'hello!'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.459551",
+        "finished_at": "2026-08-19 18:16:14.621795"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: hello!",
+        "error": null,
+        "started_at": "2026-08-19 18:16:14.645432",
+        "finished_at": "2026-08-19 18:16:14.653150"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:16:14.139715"
+  },
+  "d855ba4e-b4ca-4bae-aaa6-5ecd839cc3dc": {
+    "id": "d855ba4e-b4ca-4bae-aaa6-5ecd839cc3dc",
+    "goal": "2 fail state",
+    "status": "FAILED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: 2 fail state",
+        "error": null,
+        "started_at": "2026-08-19 18:16:24.635714",
+        "finished_at": "2026-08-19 18:16:24.641123"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 0,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:16:24.650814",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for '2 fail state'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:24.659620",
+        "finished_at": "2026-08-19 18:16:24.768828"
+      },
+      {
+        "name": "SearchB",
+        "status": "FAILED",
+        "cost": 500,
+        "charged": true,
+        "output": null,
+        "error": "Sample error: query cannot start with a number",
+        "started_at": "2026-08-19 18:16:24.784695",
+        "finished_at": "2026-08-19 18:16:24.895839"
+      }
+    ],
+    "credits_consumed": 1100,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:16:24.597215"
+  },
+  "b83718cd-0a5b-4aa0-bdc4-b6cf766a5926": {
+    "id": "b83718cd-0a5b-4aa0-bdc4-b6cf766a5926",
+    "goal": "fail state",
+    "status": "COMPLETED",
+    "steps": [
+      {
+        "name": "Plan",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Planned steps for: fail state",
+        "error": null,
+        "started_at": "2026-08-19 18:16:32.533336",
+        "finished_at": "2026-08-19 18:16:32.538888"
+      },
+      {
+        "name": "LookupPrevious",
+        "status": "RUNNING",
+        "cost": 0,
+        "charged": true,
+        "output": null,
+        "error": null,
+        "started_at": "2026-08-19 18:16:32.548712",
+        "finished_at": null
+      },
+      {
+        "name": "SearchA",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 1 for 'fail state'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:32.557743",
+        "finished_at": "2026-08-19 18:16:32.667158"
+      },
+      {
+        "name": "SearchB",
+        "status": "COMPLETED",
+        "cost": 500,
+        "charged": true,
+        "output": "Search result 2 for 'fail state'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:32.683548",
+        "finished_at": "2026-08-19 18:16:32.794727"
+      },
+      {
+        "name": "Summarize",
+        "status": "COMPLETED",
+        "cost": 400,
+        "charged": true,
+        "output": "Summary: Search result 1 for 'fail state' | Search result 2 for 'fail state'",
+        "error": null,
+        "started_at": "2026-08-19 18:16:32.818086",
+        "finished_at": "2026-08-19 18:16:32.980726"
+      },
+      {
+        "name": "Finalize",
+        "status": "COMPLETED",
+        "cost": 100,
+        "charged": true,
+        "output": "Final report for: fail state",
+        "error": null,
+        "started_at": "2026-08-19 18:16:33.006389",
+        "finished_at": "2026-08-19 18:16:33.013820"
+      }
+    ],
+    "credits_consumed": 1600,
+    "max_steps": 10,
+    "created_at": "2026-08-19 18:16:32.495229"
+  }
+}
